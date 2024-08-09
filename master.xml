@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="utilities.ExtentReportManager"></listener>
+	</listeners>
+	
+  <test thread-count="5" name="Test">
+	  <parameter name="os" value="windows"/>
+	  <parameter name="browser" value="chrome"/>
+    <classes>
+	  <class name="testCases.TC1001_EnableRandomMode"/>
+	  <class name="testCases.TC1002_DisableRandomMode"/>
+	  <class name="testCases.TC2001_RefreshRandomNodes"/>
+	  <class name="testCases.TC3001_SelectFromNode"/>
+	  <class name="testCases.TC3002_SelectToNode"/>
+	  <class name="testCases.TC4001_CalculatePathRandomMode"/>
+      <class name="testCases.TC4002_CalculatePathManualMode"/>
+      <class name="testCases.TC5001_DisplayResults"/>
+      <class name="testCases.TC6001_ClearSelection"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

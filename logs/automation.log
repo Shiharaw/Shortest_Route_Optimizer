@@ -1,0 +1,234 @@
+2024-08-09 09:12:48 INFO  TC1001_EnableRandomMode:12 - ****Starting TC1001_EnableRandomMode****
+2024-08-09 09:12:48 INFO  TC1001_EnableRandomMode:17 - ****Enable Random Mode****
+2024-08-09 09:12:53 INFO  TC1001_EnableRandomMode:23 - ****Check enable the Random Mode button****
+2024-08-09 09:12:53 INFO  TC1001_EnableRandomMode:25 - ****Check display the Refresh Icon****
+2024-08-09 09:12:53 INFO  TC1001_EnableRandomMode:29 - ****Check existence of the Calculate Random button****
+2024-08-09 09:12:53 INFO  TC1001_EnableRandomMode:38 - *****Finished TC1001_EnableRandomMode*****
+2024-08-09 09:12:55 INFO  TC1002_DisableRandomMode:14 - ****Starting TC1002_DisableRandomMode****
+2024-08-09 09:12:55 INFO  TC1002_DisableRandomMode:19 - ****Check disable the Random Mode button****
+2024-08-09 09:12:55 INFO  TC1002_DisableRandomMode:21 - ****Check display the Refresh Icon****
+2024-08-09 09:13:15 INFO  TC1002_DisableRandomMode:31 - *****Finished TC1002_DisableRandomMode*****
+2024-08-09 09:13:18 INFO  TC2001_RefreshRandomNodes:13 - ****Starting TC2001_RefreshRandomNodes****
+2024-08-09 09:13:18 INFO  TC2001_RefreshRandomNodes:18 - ****Enable the Random Mode button****
+2024-08-09 09:13:20 INFO  TC2001_RefreshRandomNodes:23 - ****Click Refresh button****
+2024-08-09 09:13:22 INFO  TC2001_RefreshRandomNodes:27 - ****Verify From Node and To Node are refreshed****
+2024-08-09 09:13:22 INFO  TC2001_RefreshRandomNodes:45 - *****Finished TC2001_RefreshRandomNodes*****
+2024-08-09 09:13:24 INFO  TC3001_SelectFromNode:13 - ****Starting TC3001_SelectFromNode****
+2024-08-09 09:13:24 INFO  TC3001_SelectFromNode:18 - ****Select option value C for From Node****
+2024-08-09 09:13:24 INFO  TC3001_SelectFromNode:21 - ****Verify From Node option value is updated with C****
+2024-08-09 09:13:24 INFO  TC3001_SelectFromNode:38 - *****Finished TC3001_SelectFromNode*****
+2024-08-09 09:13:26 INFO  TC3002_SelectToNode:13 - ****Starting TC3002_SelectToNode****
+2024-08-09 09:13:26 INFO  TC3002_SelectToNode:18 - ****Select option value H for To Node****
+2024-08-09 09:13:26 INFO  TC3002_SelectToNode:21 - ****Verify To Node option value is updated with F****
+2024-08-09 09:13:26 INFO  TC3002_SelectToNode:38 - *****Finished TC3002_SelectToNode*****
+2024-08-09 09:13:28 INFO  TC4001_CalculatePathRandomMode:13 - ****Starting TC4001_CalculatePathRandomMode****
+2024-08-09 09:13:28 INFO  TC4001_CalculatePathRandomMode:18 - ****Calculate path with random nodes****
+2024-08-09 09:13:29 INFO  TC4001_CalculatePathRandomMode:23 - ****Verify Calculated path and distance are displayed****
+2024-08-09 09:13:32 INFO  TC4001_CalculatePathRandomMode:35 - *****Finished TC4001_CalculatePathRandomMode*****
+2024-08-09 09:13:34 INFO  TC4002_CalculatePathManualMode:13 - ****Starting TC4002_CalculatePathManualMode****
+2024-08-09 09:13:34 INFO  TC4002_CalculatePathManualMode:18 - ****Calculate path and distance****
+2024-08-09 09:13:34 INFO  TC4002_CalculatePathManualMode:23 - ****Verify Calculated path and distance are displayed****
+2024-08-09 09:13:36 INFO  TC4002_CalculatePathManualMode:35 - *****Finished TC4002_CalculatePathManualMode*****
+2024-08-09 09:13:38 INFO  TC5001_DisplayResults:13 - ****Starting TC4002_CalculatePathManualMode****
+2024-08-09 09:13:38 INFO  TC5001_DisplayResults:18 - ****Calculate path and distance****
+2024-08-09 09:13:38 INFO  TC5001_DisplayResults:23 - ****Verify Calculated path and distance display format****
+2024-08-09 09:13:40 INFO  TC5001_DisplayResults:51 - *****Finished TC5001_DisplayResults*****
+2024-08-09 09:13:42 INFO  TC6001_ClearSelection:13 - ****Starting TC4002_CalculatePathManualMode****
+2024-08-09 09:13:42 INFO  TC6001_ClearSelection:18 - ****Calculate path and distance****
+2024-08-09 09:13:47 INFO  TC6001_ClearSelection:24 - ****All fields should be cleared and reset****
+2024-08-09 09:13:47 INFO  TC6001_ClearSelection:27 - ****Verify Calculated path and distance are do not display****
+2024-08-09 09:14:27 INFO  TC6001_ClearSelection:39 - *****Finished TC6001_ClearSelection*****
+2024-08-09 09:17:56 INFO  TC1001_EnableRandomMode:12 - ****Starting TC1001_EnableRandomMode****
+2024-08-09 09:17:56 INFO  TC1001_EnableRandomMode:17 - ****Enable Random Mode****
+2024-08-09 09:18:01 INFO  TC1001_EnableRandomMode:23 - ****Check enable the Random Mode button****
+2024-08-09 09:18:01 INFO  TC1001_EnableRandomMode:25 - ****Check display the Refresh Icon****
+2024-08-09 09:18:01 INFO  TC1001_EnableRandomMode:29 - ****Check existence of the Calculate Random button****
+2024-08-09 09:18:01 INFO  TC1001_EnableRandomMode:38 - *****Finished TC1001_EnableRandomMode*****
+2024-08-09 09:18:03 INFO  TC1002_DisableRandomMode:14 - ****Starting TC1002_DisableRandomMode****
+2024-08-09 09:18:03 INFO  TC1002_DisableRandomMode:19 - ****Check disable the Random Mode button****
+2024-08-09 09:18:03 INFO  TC1002_DisableRandomMode:21 - ****Check display the Refresh Icon****
+2024-08-09 09:18:23 INFO  TC1002_DisableRandomMode:31 - *****Finished TC1002_DisableRandomMode*****
+2024-08-09 09:18:25 INFO  TC2001_RefreshRandomNodes:13 - ****Starting TC2001_RefreshRandomNodes****
+2024-08-09 09:18:25 INFO  TC2001_RefreshRandomNodes:18 - ****Enable the Random Mode button****
+2024-08-09 09:18:26 INFO  TC2001_RefreshRandomNodes:23 - ****Click Refresh button****
+2024-08-09 09:18:29 INFO  TC2001_RefreshRandomNodes:27 - ****Verify From Node and To Node are refreshed****
+2024-08-09 09:18:29 INFO  TC2001_RefreshRandomNodes:45 - *****Finished TC2001_RefreshRandomNodes*****
+2024-08-09 09:18:30 INFO  TC3001_SelectFromNode:13 - ****Starting TC3001_SelectFromNode****
+2024-08-09 09:18:30 INFO  TC3001_SelectFromNode:18 - ****Select option value C for From Node****
+2024-08-09 09:18:31 INFO  TC3001_SelectFromNode:21 - ****Verify From Node option value is updated with C****
+2024-08-09 09:18:31 INFO  TC3001_SelectFromNode:38 - *****Finished TC3001_SelectFromNode*****
+2024-08-09 09:18:33 INFO  TC3002_SelectToNode:13 - ****Starting TC3002_SelectToNode****
+2024-08-09 09:18:33 INFO  TC3002_SelectToNode:18 - ****Select option value H for To Node****
+2024-08-09 09:18:33 INFO  TC3002_SelectToNode:21 - ****Verify To Node option value is updated with F****
+2024-08-09 09:18:33 INFO  TC3002_SelectToNode:38 - *****Finished TC3002_SelectToNode*****
+2024-08-09 09:18:35 INFO  TC4001_CalculatePathRandomMode:13 - ****Starting TC4001_CalculatePathRandomMode****
+2024-08-09 09:18:35 INFO  TC4001_CalculatePathRandomMode:18 - ****Calculate path with random nodes****
+2024-08-09 09:18:36 INFO  TC4001_CalculatePathRandomMode:23 - ****Verify Calculated path and distance are displayed****
+2024-08-09 09:18:38 INFO  TC4001_CalculatePathRandomMode:35 - *****Finished TC4001_CalculatePathRandomMode*****
+2024-08-09 09:18:40 INFO  TC4002_CalculatePathManualMode:13 - ****Starting TC4002_CalculatePathManualMode****
+2024-08-09 09:18:40 INFO  TC4002_CalculatePathManualMode:18 - ****Calculate path and distance****
+2024-08-09 09:18:41 INFO  TC4002_CalculatePathManualMode:23 - ****Verify Calculated path and distance are displayed****
+2024-08-09 09:18:42 INFO  TC4002_CalculatePathManualMode:35 - *****Finished TC4002_CalculatePathManualMode*****
+2024-08-09 09:18:45 INFO  TC5001_DisplayResults:13 - ****Starting TC4002_CalculatePathManualMode****
+2024-08-09 09:18:45 INFO  TC5001_DisplayResults:18 - ****Calculate path and distance****
+2024-08-09 09:18:45 INFO  TC5001_DisplayResults:23 - ****Verify Calculated path and distance display format****
+2024-08-09 09:18:47 INFO  TC5001_DisplayResults:51 - *****Finished TC5001_DisplayResults*****
+2024-08-09 09:18:50 INFO  TC6001_ClearSelection:13 - ****Starting TC4002_CalculatePathManualMode****
+2024-08-09 09:18:50 INFO  TC6001_ClearSelection:18 - ****Calculate path and distance****
+2024-08-09 09:18:55 INFO  TC6001_ClearSelection:24 - ****All fields should be cleared and reset****
+2024-08-09 09:18:55 INFO  TC6001_ClearSelection:27 - ****Verify Calculated path and distance are do not display****
+2024-08-09 09:19:35 INFO  TC6001_ClearSelection:39 - *****Finished TC6001_ClearSelection*****
+2024-08-09 09:20:59 INFO  TC1001_EnableRandomMode:12 - ****Starting TC1001_EnableRandomMode****
+2024-08-09 09:20:59 INFO  TC1001_EnableRandomMode:17 - ****Enable Random Mode****
+2024-08-09 09:21:04 INFO  TC1001_EnableRandomMode:23 - ****Check enable the Random Mode button****
+2024-08-09 09:21:04 INFO  TC1001_EnableRandomMode:25 - ****Check display the Refresh Icon****
+2024-08-09 09:21:04 INFO  TC1001_EnableRandomMode:29 - ****Check existence of the Calculate Random button****
+2024-08-09 09:21:04 INFO  TC1001_EnableRandomMode:38 - *****Finished TC1001_EnableRandomMode*****
+2024-08-09 09:21:06 INFO  TC1002_DisableRandomMode:14 - ****Starting TC1002_DisableRandomMode****
+2024-08-09 09:21:06 INFO  TC1002_DisableRandomMode:19 - ****Check disable the Random Mode button****
+2024-08-09 09:21:06 INFO  TC1002_DisableRandomMode:21 - ****Check display the Refresh Icon****
+2024-08-09 09:21:26 INFO  TC1002_DisableRandomMode:31 - *****Finished TC1002_DisableRandomMode*****
+2024-08-09 09:21:28 INFO  TC2001_RefreshRandomNodes:13 - ****Starting TC2001_RefreshRandomNodes****
+2024-08-09 09:21:28 INFO  TC2001_RefreshRandomNodes:18 - ****Enable the Random Mode button****
+2024-08-09 09:22:08 INFO  TC2001_RefreshRandomNodes:23 - ****Click Refresh button****
+2024-08-09 09:22:10 INFO  TC2001_RefreshRandomNodes:27 - ****Verify From Node and To Node are refreshed****
+2024-08-09 09:22:50 INFO  TC2001_RefreshRandomNodes:45 - *****Finished TC2001_RefreshRandomNodes*****
+2024-08-09 09:22:52 INFO  TC3001_SelectFromNode:13 - ****Starting TC3001_SelectFromNode****
+2024-08-09 09:22:52 INFO  TC3001_SelectFromNode:18 - ****Select option value C for From Node****
+2024-08-09 09:22:52 INFO  TC3001_SelectFromNode:21 - ****Verify From Node option value is updated with C****
+2024-08-09 09:22:52 INFO  TC3001_SelectFromNode:38 - *****Finished TC3001_SelectFromNode*****
+2024-08-09 09:22:54 INFO  TC3002_SelectToNode:13 - ****Starting TC3002_SelectToNode****
+2024-08-09 09:22:54 INFO  TC3002_SelectToNode:18 - ****Select option value H for To Node****
+2024-08-09 09:22:54 INFO  TC3002_SelectToNode:21 - ****Verify To Node option value is updated with F****
+2024-08-09 09:22:54 INFO  TC3002_SelectToNode:38 - *****Finished TC3002_SelectToNode*****
+2024-08-09 09:22:55 INFO  TC4001_CalculatePathRandomMode:13 - ****Starting TC4001_CalculatePathRandomMode****
+2024-08-09 09:22:55 INFO  TC4001_CalculatePathRandomMode:18 - ****Calculate path with random nodes****
+2024-08-09 09:22:56 INFO  TC4001_CalculatePathRandomMode:23 - ****Verify Calculated path and distance are displayed****
+2024-08-09 09:23:18 INFO  TC4002_CalculatePathManualMode:13 - ****Starting TC4002_CalculatePathManualMode****
+2024-08-09 09:23:18 INFO  TC4002_CalculatePathManualMode:18 - ****Calculate path and distance****
+2024-08-09 09:23:18 INFO  TC4002_CalculatePathManualMode:23 - ****Verify Calculated path and distance are displayed****
+2024-08-09 09:23:21 INFO  TC4002_CalculatePathManualMode:35 - *****Finished TC4002_CalculatePathManualMode*****
+2024-08-09 09:23:22 INFO  TC5001_DisplayResults:13 - ****Starting TC4002_CalculatePathManualMode****
+2024-08-09 09:23:22 INFO  TC5001_DisplayResults:18 - ****Calculate path and distance****
+2024-08-09 09:23:23 INFO  TC5001_DisplayResults:23 - ****Verify Calculated path and distance display format****
+2024-08-09 09:23:24 INFO  TC5001_DisplayResults:51 - *****Finished TC5001_DisplayResults*****
+2024-08-09 09:23:26 INFO  TC6001_ClearSelection:13 - ****Starting TC4002_CalculatePathManualMode****
+2024-08-09 09:23:26 INFO  TC6001_ClearSelection:18 - ****Calculate path and distance****
+2024-08-09 09:23:31 INFO  TC6001_ClearSelection:24 - ****All fields should be cleared and reset****
+2024-08-09 09:23:31 INFO  TC6001_ClearSelection:27 - ****Verify Calculated path and distance are do not display****
+2024-08-09 09:24:12 INFO  TC6001_ClearSelection:39 - *****Finished TC6001_ClearSelection*****
+2024-08-09 09:26:45 INFO  TC1001_EnableRandomMode:12 - ****Starting TC1001_EnableRandomMode****
+2024-08-09 09:26:45 INFO  TC1001_EnableRandomMode:17 - ****Enable Random Mode****
+2024-08-09 09:26:45 ERROR TC1001_EnableRandomMode:34 - Test failed
+2024-08-09 09:26:45 DEBUG TC1001_EnableRandomMode:35 - Debug logs...
+2024-08-09 09:26:45 INFO  TC1002_DisableRandomMode:14 - ****Starting TC1002_DisableRandomMode****
+2024-08-09 09:26:45 INFO  TC1002_DisableRandomMode:19 - ****Check disable the Random Mode button****
+2024-08-09 09:26:45 INFO  TC1002_DisableRandomMode:21 - ****Check display the Refresh Icon****
+2024-08-09 09:26:45 INFO  TC1002_DisableRandomMode:31 - *****Finished TC1002_DisableRandomMode*****
+2024-08-09 09:26:45 INFO  TC2001_RefreshRandomNodes:13 - ****Starting TC2001_RefreshRandomNodes****
+2024-08-09 09:26:45 INFO  TC2001_RefreshRandomNodes:18 - ****Enable the Random Mode button****
+2024-08-09 09:26:45 ERROR TC2001_RefreshRandomNodes:40 - Test failed
+2024-08-09 09:26:45 DEBUG TC2001_RefreshRandomNodes:41 - Debug logs...
+2024-08-09 09:26:45 INFO  TC3001_SelectFromNode:13 - ****Starting TC3001_SelectFromNode****
+2024-08-09 09:26:45 INFO  TC3001_SelectFromNode:18 - ****Select option value C for From Node****
+2024-08-09 09:26:45 ERROR TC3001_SelectFromNode:33 - Test failed
+2024-08-09 09:26:45 DEBUG TC3001_SelectFromNode:34 - Debug logs...
+2024-08-09 09:26:45 INFO  TC3002_SelectToNode:13 - ****Starting TC3002_SelectToNode****
+2024-08-09 09:26:45 INFO  TC3002_SelectToNode:18 - ****Select option value H for To Node****
+2024-08-09 09:26:45 ERROR TC3002_SelectToNode:33 - Test failed
+2024-08-09 09:26:45 DEBUG TC3002_SelectToNode:34 - Debug logs...
+2024-08-09 09:26:45 INFO  TC4001_CalculatePathRandomMode:13 - ****Starting TC4001_CalculatePathRandomMode****
+2024-08-09 09:26:45 INFO  TC4001_CalculatePathRandomMode:18 - ****Calculate path with random nodes****
+2024-08-09 09:26:45 ERROR TC4001_CalculatePathRandomMode:30 - Test failed
+2024-08-09 09:26:45 DEBUG TC4001_CalculatePathRandomMode:31 - Debug logs...
+2024-08-09 09:26:45 INFO  TC4002_CalculatePathManualMode:13 - ****Starting TC4002_CalculatePathManualMode****
+2024-08-09 09:26:45 INFO  TC4002_CalculatePathManualMode:18 - ****Calculate path and distance****
+2024-08-09 09:26:45 ERROR TC4002_CalculatePathManualMode:30 - Test failed
+2024-08-09 09:26:45 DEBUG TC4002_CalculatePathManualMode:31 - Debug logs...
+2024-08-09 09:26:45 INFO  TC5001_DisplayResults:13 - ****Starting TC4002_CalculatePathManualMode****
+2024-08-09 09:26:45 INFO  TC5001_DisplayResults:18 - ****Calculate path and distance****
+2024-08-09 09:26:45 ERROR TC5001_DisplayResults:46 - Test failed
+2024-08-09 09:26:45 DEBUG TC5001_DisplayResults:47 - Debug logs...
+2024-08-09 09:26:45 INFO  TC6001_ClearSelection:13 - ****Starting TC4002_CalculatePathManualMode****
+2024-08-09 09:26:45 INFO  TC6001_ClearSelection:18 - ****Calculate path and distance****
+2024-08-09 09:26:45 ERROR TC6001_ClearSelection:34 - Test failed
+2024-08-09 09:26:45 DEBUG TC6001_ClearSelection:35 - Debug logs...
+2024-08-09 09:27:30 INFO  TC1001_EnableRandomMode:12 - ****Starting TC1001_EnableRandomMode****
+2024-08-09 09:27:30 INFO  TC1001_EnableRandomMode:17 - ****Enable Random Mode****
+2024-08-09 09:27:35 INFO  TC1001_EnableRandomMode:23 - ****Check enable the Random Mode button****
+2024-08-09 09:27:35 INFO  TC1001_EnableRandomMode:25 - ****Check display the Refresh Icon****
+2024-08-09 09:27:35 INFO  TC1001_EnableRandomMode:29 - ****Check existence of the Calculate Random button****
+2024-08-09 09:27:35 INFO  TC1001_EnableRandomMode:38 - *****Finished TC1001_EnableRandomMode*****
+2024-08-09 09:27:37 INFO  TC1002_DisableRandomMode:14 - ****Starting TC1002_DisableRandomMode****
+2024-08-09 09:27:37 INFO  TC1002_DisableRandomMode:19 - ****Check disable the Random Mode button****
+2024-08-09 09:27:37 INFO  TC1002_DisableRandomMode:21 - ****Check display the Refresh Icon****
+2024-08-09 09:27:57 INFO  TC1002_DisableRandomMode:31 - *****Finished TC1002_DisableRandomMode*****
+2024-08-09 09:27:59 INFO  TC2001_RefreshRandomNodes:13 - ****Starting TC2001_RefreshRandomNodes****
+2024-08-09 09:27:59 INFO  TC2001_RefreshRandomNodes:18 - ****Enable the Random Mode button****
+2024-08-09 09:28:00 INFO  TC2001_RefreshRandomNodes:23 - ****Click Refresh button****
+2024-08-09 09:28:02 INFO  TC2001_RefreshRandomNodes:27 - ****Verify From Node and To Node are refreshed****
+2024-08-09 09:28:03 INFO  TC2001_RefreshRandomNodes:45 - *****Finished TC2001_RefreshRandomNodes*****
+2024-08-09 09:28:04 INFO  TC3001_SelectFromNode:13 - ****Starting TC3001_SelectFromNode****
+2024-08-09 09:28:04 INFO  TC3001_SelectFromNode:18 - ****Select option value C for From Node****
+2024-08-09 09:28:05 INFO  TC3001_SelectFromNode:21 - ****Verify From Node option value is updated with C****
+2024-08-09 09:28:05 INFO  TC3001_SelectFromNode:38 - *****Finished TC3001_SelectFromNode*****
+2024-08-09 09:28:08 INFO  TC3002_SelectToNode:13 - ****Starting TC3002_SelectToNode****
+2024-08-09 09:28:08 INFO  TC3002_SelectToNode:18 - ****Select option value H for To Node****
+2024-08-09 09:28:08 INFO  TC3002_SelectToNode:21 - ****Verify To Node option value is updated with F****
+2024-08-09 09:28:08 INFO  TC3002_SelectToNode:38 - *****Finished TC3002_SelectToNode*****
+2024-08-09 09:28:11 INFO  TC4001_CalculatePathRandomMode:13 - ****Starting TC4001_CalculatePathRandomMode****
+2024-08-09 09:28:11 INFO  TC4001_CalculatePathRandomMode:18 - ****Calculate path with random nodes****
+2024-08-09 09:28:13 INFO  TC4001_CalculatePathRandomMode:23 - ****Verify Calculated path and distance are displayed****
+2024-08-09 09:28:15 INFO  TC4001_CalculatePathRandomMode:35 - *****Finished TC4001_CalculatePathRandomMode*****
+2024-08-09 09:28:18 INFO  TC4002_CalculatePathManualMode:13 - ****Starting TC4002_CalculatePathManualMode****
+2024-08-09 09:28:18 INFO  TC4002_CalculatePathManualMode:18 - ****Calculate path and distance****
+2024-08-09 09:28:18 INFO  TC4002_CalculatePathManualMode:23 - ****Verify Calculated path and distance are displayed****
+2024-08-09 09:28:20 INFO  TC4002_CalculatePathManualMode:35 - *****Finished TC4002_CalculatePathManualMode*****
+2024-08-09 09:28:22 INFO  TC5001_DisplayResults:13 - ****Starting TC4002_CalculatePathManualMode****
+2024-08-09 09:28:22 INFO  TC5001_DisplayResults:18 - ****Calculate path and distance****
+2024-08-09 09:28:22 INFO  TC5001_DisplayResults:23 - ****Verify Calculated path and distance display format****
+2024-08-09 09:28:24 INFO  TC5001_DisplayResults:51 - *****Finished TC5001_DisplayResults*****
+2024-08-09 09:28:26 INFO  TC6001_ClearSelection:13 - ****Starting TC4002_CalculatePathManualMode****
+2024-08-09 09:28:26 INFO  TC6001_ClearSelection:18 - ****Calculate path and distance****
+2024-08-09 09:28:31 INFO  TC6001_ClearSelection:24 - ****All fields should be cleared and reset****
+2024-08-09 09:28:31 INFO  TC6001_ClearSelection:27 - ****Verify Calculated path and distance are do not display****
+2024-08-09 09:29:11 INFO  TC6001_ClearSelection:39 - *****Finished TC6001_ClearSelection*****
+2024-08-09 09:37:41 INFO  TC1001_EnableRandomMode:12 - ****Starting TC1001_EnableRandomMode****
+2024-08-09 09:37:41 INFO  TC1001_EnableRandomMode:17 - ****Enable Random Mode****
+2024-08-09 09:37:46 INFO  TC1001_EnableRandomMode:23 - ****Check enable the Random Mode button****
+2024-08-09 09:37:46 INFO  TC1001_EnableRandomMode:25 - ****Check display the Refresh Icon****
+2024-08-09 09:37:46 INFO  TC1001_EnableRandomMode:29 - ****Check existence of the Calculate Random button****
+2024-08-09 09:37:46 INFO  TC1001_EnableRandomMode:38 - *****Finished TC1001_EnableRandomMode*****
+2024-08-09 09:37:48 INFO  TC1002_DisableRandomMode:14 - ****Starting TC1002_DisableRandomMode****
+2024-08-09 09:37:48 INFO  TC1002_DisableRandomMode:19 - ****Check disable the Random Mode button****
+2024-08-09 09:37:48 INFO  TC1002_DisableRandomMode:21 - ****Check display the Refresh Icon****
+2024-08-09 09:38:08 INFO  TC1002_DisableRandomMode:31 - *****Finished TC1002_DisableRandomMode*****
+2024-08-09 09:38:10 INFO  TC2001_RefreshRandomNodes:13 - ****Starting TC2001_RefreshRandomNodes****
+2024-08-09 09:38:10 INFO  TC2001_RefreshRandomNodes:18 - ****Enable the Random Mode button****
+2024-08-09 09:38:50 INFO  TC2001_RefreshRandomNodes:23 - ****Click Refresh button****
+2024-08-09 09:38:52 INFO  TC2001_RefreshRandomNodes:27 - ****Verify From Node and To Node are refreshed****
+2024-08-09 09:39:32 INFO  TC2001_RefreshRandomNodes:45 - *****Finished TC2001_RefreshRandomNodes*****
+2024-08-09 09:39:34 INFO  TC3001_SelectFromNode:13 - ****Starting TC3001_SelectFromNode****
+2024-08-09 09:39:34 INFO  TC3001_SelectFromNode:18 - ****Select option value C for From Node****
+2024-08-09 09:39:34 INFO  TC3001_SelectFromNode:21 - ****Verify From Node option value is updated with C****
+2024-08-09 09:39:34 INFO  TC3001_SelectFromNode:38 - *****Finished TC3001_SelectFromNode*****
+2024-08-09 09:39:36 INFO  TC3002_SelectToNode:13 - ****Starting TC3002_SelectToNode****
+2024-08-09 09:39:36 INFO  TC3002_SelectToNode:18 - ****Select option value H for To Node****
+2024-08-09 09:39:36 INFO  TC3002_SelectToNode:21 - ****Verify To Node option value is updated with F****
+2024-08-09 09:39:36 INFO  TC3002_SelectToNode:38 - *****Finished TC3002_SelectToNode*****
+2024-08-09 09:39:38 INFO  TC4001_CalculatePathRandomMode:13 - ****Starting TC4001_CalculatePathRandomMode****
+2024-08-09 09:39:38 INFO  TC4001_CalculatePathRandomMode:18 - ****Calculate path with random nodes****
+2024-08-09 09:39:38 INFO  TC4001_CalculatePathRandomMode:23 - ****Verify Calculated path and distance are displayed****
+2024-08-09 09:40:00 INFO  TC4002_CalculatePathManualMode:13 - ****Starting TC4002_CalculatePathManualMode****
+2024-08-09 09:40:00 INFO  TC4002_CalculatePathManualMode:18 - ****Calculate path and distance****
+2024-08-09 09:40:01 INFO  TC4002_CalculatePathManualMode:23 - ****Verify Calculated path and distance are displayed****
+2024-08-09 09:40:03 INFO  TC4002_CalculatePathManualMode:35 - *****Finished TC4002_CalculatePathManualMode*****
+2024-08-09 09:40:05 INFO  TC5001_DisplayResults:13 - ****Starting TC4002_CalculatePathManualMode****
+2024-08-09 09:40:05 INFO  TC5001_DisplayResults:18 - ****Calculate path and distance****
+2024-08-09 09:40:05 INFO  TC5001_DisplayResults:23 - ****Verify Calculated path and distance display format****
+2024-08-09 09:40:07 INFO  TC5001_DisplayResults:51 - *****Finished TC5001_DisplayResults*****
+2024-08-09 09:40:09 INFO  TC6001_ClearSelection:13 - ****Starting TC4002_CalculatePathManualMode****
+2024-08-09 09:40:09 INFO  TC6001_ClearSelection:18 - ****Calculate path and distance****
+2024-08-09 09:40:14 INFO  TC6001_ClearSelection:24 - ****All fields should be cleared and reset****
+2024-08-09 09:40:14 INFO  TC6001_ClearSelection:27 - ****Verify Calculated path and distance are do not display****
+2024-08-09 09:40:55 INFO  TC6001_ClearSelection:39 - *****Finished TC6001_ClearSelection*****

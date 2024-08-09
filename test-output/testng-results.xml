@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-09T09:37:39 IST" name="Suite" finished-at="2024-08-09T09:40:55 IST" duration-ms="196144">
+    <groups>
+    </groups>
+    <test started-at="2024-08-09T09:37:39 IST" name="Test" finished-at="2024-08-09T09:40:55 IST" duration-ms="196144">
+      <class name="testCases.TC1002_DisableRandomMode">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC1002_DisableRandomMode@131ef10]" started-at="2024-08-09T09:37:47 IST" name="setup" finished-at="2024-08-09T09:37:48 IST" duration-ms="1597" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_disable_random_mode()[pri:0, instance:testCases.TC1002_DisableRandomMode@131ef10]" started-at="2024-08-09T09:37:48 IST" name="verify_disable_random_mode" finished-at="2024-08-09T09:38:08 IST" duration-ms="20075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_disable_random_mode -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC1002_DisableRandomMode@131ef10]" started-at="2024-08-09T09:38:08 IST" name="tearDown" finished-at="2024-08-09T09:38:08 IST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC1002_DisableRandomMode -->
+      <class name="testCases.TC4001_CalculatePathRandomMode">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC4001_CalculatePathRandomMode@23348b5d]" started-at="2024-08-09T09:39:36 IST" name="setup" finished-at="2024-08-09T09:39:38 IST" duration-ms="1529" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_calculate_path_random_mode()[pri:0, instance:testCases.TC4001_CalculatePathRandomMode@23348b5d]" started-at="2024-08-09T09:39:38 IST" name="verify_calculate_path_random_mode" finished-at="2024-08-09T09:39:58 IST" duration-ms="20514" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testCases.TC4001_CalculatePathRandomMode.verify_calculate_path_random_mode(TC4001_CalculatePathRandomMode.java:25)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_calculate_path_random_mode -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC4001_CalculatePathRandomMode@23348b5d]" started-at="2024-08-09T09:39:59 IST" name="tearDown" finished-at="2024-08-09T09:39:59 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC4001_CalculatePathRandomMode -->
+      <class name="testCases.TC3002_SelectToNode">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC3002_SelectToNode@2df3b89c]" started-at="2024-08-09T09:39:34 IST" name="setup" finished-at="2024-08-09T09:39:36 IST" duration-ms="1486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_select_to_node()[pri:0, instance:testCases.TC3002_SelectToNode@2df3b89c]" started-at="2024-08-09T09:39:36 IST" name="verify_select_to_node" finished-at="2024-08-09T09:39:36 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_select_to_node -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC3002_SelectToNode@2df3b89c]" started-at="2024-08-09T09:39:36 IST" name="tearDown" finished-at="2024-08-09T09:39:36 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC3002_SelectToNode -->
+      <class name="testCases.TC3001_SelectFromNode">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC3001_SelectFromNode@38afe297]" started-at="2024-08-09T09:39:33 IST" name="setup" finished-at="2024-08-09T09:39:34 IST" duration-ms="1650" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_select_from_node()[pri:0, instance:testCases.TC3001_SelectFromNode@38afe297]" started-at="2024-08-09T09:39:34 IST" name="verify_select_from_node" finished-at="2024-08-09T09:39:34 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_select_from_node -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC3001_SelectFromNode@38afe297]" started-at="2024-08-09T09:39:34 IST" name="tearDown" finished-at="2024-08-09T09:39:34 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC3001_SelectFromNode -->
+      <class name="testCases.TC5001_DisplayResults">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC5001_DisplayResults@37ceb1df]" started-at="2024-08-09T09:40:04 IST" name="setup" finished-at="2024-08-09T09:40:05 IST" duration-ms="1624" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_dispay_results()[pri:0, instance:testCases.TC5001_DisplayResults@37ceb1df]" started-at="2024-08-09T09:40:05 IST" name="verify_dispay_results" finished-at="2024-08-09T09:40:07 IST" duration-ms="2049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_dispay_results -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC5001_DisplayResults@37ceb1df]" started-at="2024-08-09T09:40:07 IST" name="tearDown" finished-at="2024-08-09T09:40:07 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC5001_DisplayResults -->
+      <class name="testCases.TC6001_ClearSelection">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC6001_ClearSelection@7c9d8e2]" started-at="2024-08-09T09:40:07 IST" name="setup" finished-at="2024-08-09T09:40:09 IST" duration-ms="1672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_clear_selection()[pri:0, instance:testCases.TC6001_ClearSelection@7c9d8e2]" started-at="2024-08-09T09:40:09 IST" name="verify_clear_selection" finished-at="2024-08-09T09:40:55 IST" duration-ms="45476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_clear_selection -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC6001_ClearSelection@7c9d8e2]" started-at="2024-08-09T09:40:55 IST" name="tearDown" finished-at="2024-08-09T09:40:55 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC6001_ClearSelection -->
+      <class name="testCases.TC4002_CalculatePathManualMode">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC4002_CalculatePathManualMode@70325e14]" started-at="2024-08-09T09:39:59 IST" name="setup" finished-at="2024-08-09T09:40:00 IST" duration-ms="1564" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_calculate_path_maual_mode()[pri:0, instance:testCases.TC4002_CalculatePathManualMode@70325e14]" started-at="2024-08-09T09:40:00 IST" name="verify_calculate_path_maual_mode" finished-at="2024-08-09T09:40:03 IST" duration-ms="3032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_calculate_path_maual_mode -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC4002_CalculatePathManualMode@70325e14]" started-at="2024-08-09T09:40:03 IST" name="tearDown" finished-at="2024-08-09T09:40:04 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC4002_CalculatePathManualMode -->
+      <class name="testCases.TC1001_EnableRandomMode">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC1001_EnableRandomMode@24313fcc]" started-at="2024-08-09T09:37:39 IST" name="setup" finished-at="2024-08-09T09:37:41 IST" duration-ms="2479" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_enable_random_mode()[pri:0, instance:testCases.TC1001_EnableRandomMode@24313fcc]" started-at="2024-08-09T09:37:41 IST" name="verify_enable_random_mode" finished-at="2024-08-09T09:37:46 IST" duration-ms="5181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_enable_random_mode -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC1001_EnableRandomMode@24313fcc]" started-at="2024-08-09T09:37:46 IST" name="tearDown" finished-at="2024-08-09T09:37:47 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC1001_EnableRandomMode -->
+      <class name="testCases.TC2001_RefreshRandomNodes">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC2001_RefreshRandomNodes@55b0dcab]" started-at="2024-08-09T09:38:08 IST" name="setup" finished-at="2024-08-09T09:38:10 IST" duration-ms="1795" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_refresh_random_nodes()[pri:0, instance:testCases.TC2001_RefreshRandomNodes@55b0dcab]" started-at="2024-08-09T09:38:10 IST" name="verify_refresh_random_nodes" finished-at="2024-08-09T09:39:32 IST" duration-ms="82253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_refresh_random_nodes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC2001_RefreshRandomNodes@55b0dcab]" started-at="2024-08-09T09:39:32 IST" name="tearDown" finished-at="2024-08-09T09:39:33 IST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC2001_RefreshRandomNodes -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
