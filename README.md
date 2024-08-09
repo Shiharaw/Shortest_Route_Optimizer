@@ -28,5 +28,42 @@ TC4002	         Calculate Path        1. Select 'From' node as "C".             
 TC5001	         Display Results	     1. Perform path calculation.	                      The results should be displayed in the specified format.
 
 TC6001	         Clear Selection	     1. Perform path calculation.                       All fields should be cleared and reset.
+
+Used Hybrid Selenium framework using Selenium, Maven, and TestGN-based framework.
+
+Created a project in GitHub and provided the link
+
+Project run in Chrome browser with Headed and headless options
+
+
+Instructions on how to run the project
+
+a) Go to the project and open master.xml and Run as TestNG suit
+
+Things included in the project
+
+1. Page objects and methods 
+src/test/java/pageObjects/AlgorithmCalculatorPage.java
+
+2. Base Page
+src/test/java/pageObjects/BasePage.java
+
+3. Base Class - 
+src/test/java/testCases/BaseClass.java
+
+4. Test Cases 
+src/test/java/testCases
+
+5. Extent Report - Report generation and Email report options
+src/test/java/utilities/ExtentReportManager.java
+Reports  - reports
+
+6. Log4J
+src/test/resources/log4j2.xml
+Log  files - logs
+
+7. Added to get Screen shorts when test fails
+src/test/java/testCases/BaseClass.java
+
                                        2. Click the "Clear" button.
 
