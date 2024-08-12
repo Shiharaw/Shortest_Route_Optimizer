@@ -1,34 +1,136 @@
 Shortest_Route_Optimizer Automation test assignment
+****************************************************
 
 Automated test suit Document
-Test Case ID	  Test Scenario	         Test Steps	                                     Expected Result
-TC1001	        Enable Random Mode	   1. Navigate to the application.                 The checkbox should be checked Indicating random mode is enabled.
-                                       2. Click on the random mode selector            Refresh icon displayed
-                                       checkbox.	                                     Calculate Random button displayed
-                                  
-TC1002	         Disable Random Mode	 1. Click on the random mode selector             The checkbox should be unchecked, indicating random mode is disabled. 
-                                       checkbox to uncheck it.	                        Calculate Random button did not displayed
+****************************
 
-TC2001	         Refresh Random Nodes	 1. Enable random mode.                            The nodes should refresh and display new random selections.
-                                       2. Click the refresh icon.
+Test Case ID  - TC1001
 
-TC3001	         Select From Node	     1. Navigate to the 'From' node dropdown.          The selected node should be displayed in the 'From' node field.
-                                       2. Select a node (e.g., "C").	
+Test Scenario - Enable Random Mode
 
-TC3002	         Select To Node	       1. Navigate to the 'To' node dropdown.            The selected node should be displayed in the 'To' node field.
-                                       2. Select a node (e.g., "H").
+Test Steps - 
+1. Navigate to the application.     
+2. Click on the random mode selector checkbox.
 
-TC4001	         Calculate Path        1. Enable random mode.                            The shortest path and total distance should be displayed.
-                 Random Mode	         2. Click "Calculate Random".
+Expected Result - 
+1. The checkbox should be checked Indicating random mode is enabled.
+2. Refresh icon displayed
+3. Calculate Random button displaye
 
-TC4002	         Calculate Path        1. Select 'From' node as "C".                     The shortest path and total distance should be displayed.
-                 Manual Mode           2. Select 'To' node as "H".
-                                       3. Click "Calculate Path".
+**********************************************
 
-TC5001	         Display Results	     1. Perform path calculation.	                      The results should be displayed in the specified format.
 
-TC6001	         Clear Selection	     1. Perform path calculation.                       All fields should be cleared and reset.
+Test Case ID  - TC1002
 
+Test Scenario - Disable Random Mode
+
+Test Steps - 
+1. Click on the random mode selector checkbox to uncheck it.
+
+Expected Result - 
+1. The checkbox should be unchecked, indicating random mode is disabled.
+2. Calculate Random button did not displayed
+
+**********************************************
+
+
+Test Case ID  - TC2001
+
+Test Scenario - Refresh Random Nodes
+
+Test Steps - 
+1. Enable random mode.    
+2. Click the refresh icon.
+
+Expected Result -  
+1. The nodes should refresh and display new random selections.
+
+**********************************************
+
+
+Test Case ID  - TC3001
+
+Test Scenario - Select From Node
+
+Test Steps - 
+1. Navigate to the 'From' node dropdown.
+2. Select a node (e.g., "C").
+
+Expected Result -  
+1. The selected node should be displayed in the 'From' node field.
+
+**********************************************
+
+
+Test Case ID  - TC3002
+
+Test Scenario - Select To Node
+
+Test Steps - 
+1. Navigate to the 'To' node dropdown.
+2. Select a node (e.g., "H").
+
+Expected Result -  
+1. The selected node should be displayed in the 'To' node field. 
+
+**********************************************
+
+
+Test Case ID  - TC4001
+
+Test Scenario - Calculate Path Random Mode	 
+
+Test Steps - 
+1. Enable random mode.       
+2. Click "Calculate Random".
+
+Expected Result -  
+1. The shortest path and total distance should be displayed.
+
+**********************************************
+
+
+Test Case ID  - TC4002
+
+Test Scenario - Calculate Path Manual Mode
+
+Test Steps - 
+1. Select 'From' node as "C".
+2. Select 'To' node as "H".
+3. Click "Calculate Path".
+
+Expected Result -  
+1.  The shortest path and total distance should be displayed.
+
+**********************************************
+
+
+Test Case ID  - TC5001
+
+Test Scenario - Display Results
+
+Test Steps - 
+1. Perform path calculation.
+
+Expected Result -  
+1. The results should be displayed in the specified format.
+
+**********************************************
+
+
+Test Case ID  - TC6001
+
+Test Scenario -  Clear Selection
+
+Test Steps - 
+1. Perform path calculation. 
+
+Expected Result -  
+1. All fields should be cleared and reset.
+
+ **********************************************
+
+ 
 Used Hybrid Selenium framework using Selenium, Maven, and TestGN-based framework.
 
 Created a project in GitHub and provided the link
