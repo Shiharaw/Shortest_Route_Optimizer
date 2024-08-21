@@ -128,7 +128,8 @@ Test Steps -
 Expected Result -  
 1. All fields should be cleared and reset.
 
- **********************************************
+**********************************************
+
 
 Details
 
@@ -146,32 +147,40 @@ Instructions on how to run the project
 
 a) Go to the project and open master.xml and Run as TestNG suit
 
+
 Project included
 
 **********************************************
 1. Page objects and methods 
-src/test/java/pageObjects/AlgorithmCalculatorPage.java
+- src/test/java/pageObjects/AlgorithmCalculatorPage.java
+
 
 2. Base Page
-src/test/java/pageObjects/BasePage.java
+- src/test/java/pageObjects/BasePage.java
+
 
 3. Base Class - 
-src/test/java/testCases/BaseClass.java
+- src/test/java/testCases/BaseClass.java
+
 
 4. Test Cases 
-src/test/java/testCases
+- src/test/java/testCases
+
 
 5. Extent Report - Report generation and Email report options
-src/test/java/utilities/ExtentReportManager.java
+- src/test/java/utilities/ExtentReportManager.java
+- 
 Reports folder path - reports
 
+
 6. Log4J
-src/test/resources/log4j2.xml
+- src/test/resources/log4j2.xml
+- 
 Log  files folder path - logs
 
-7. Added to get Screen shorts when a test fails
 
-src/test/java/testCases/BaseClass.java
+7. Added to get Screen shorts when a test fails
+- src/test/java/testCases/BaseClass.java
 
 Log  files folder path - logs
 
