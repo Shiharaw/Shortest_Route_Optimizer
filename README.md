@@ -147,10 +147,9 @@ Instructions on how to run the project
 
 a) Go to the project and open master.xml and Run as TestNG suit
 
-
+**********************************************
 Project included
 
-**********************************************
 1. Page objects and methods 
 - src/test/java/pageObjects/AlgorithmCalculatorPage.java
 
