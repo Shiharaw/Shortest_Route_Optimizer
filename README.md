@@ -131,21 +131,21 @@ Expected Result -
 **********************************************
 
 
+**********************************************
 Details
 
-**********************************************
-Used Hybrid Selenium framework using Selenium, Maven, and TestGN-based framework.
+I used a Hybrid Selenium framework using Selenium, Maven, and TestGN-based framework.
 
 Created a project in GitHub and provided the link
 
 Project run in Chrome browser with Headed and headless options
 
 
+**********************************************
 Instructions on how to run the project
 
-**********************************************
-
 a) Go to the project and open master.xml and Run as TestNG suit
+
 
 **********************************************
 Project included
@@ -168,20 +168,17 @@ Project included
 
 5. Extent Report - Report generation and Email report options
 - src/test/java/utilities/ExtentReportManager.java
-- 
-Reports folder path - reports
+- Reports folder path - reports
 
 
 6. Log4J
 - src/test/resources/log4j2.xml
-- 
-Log  files folder path - logs
+- Log  files folder path - logs
 
 
 7. Added to get Screen shorts when a test fails
 - src/test/java/testCases/BaseClass.java
-
-Log  files folder path - logs
+- Log  files folder path - logs
 
                                        2. Click the "Clear" button.
 
