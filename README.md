@@ -169,8 +169,10 @@ Reports folder path - reports
 src/test/resources/log4j2.xml
 Log  files folder path - logs
 
-7. Added to get Screen shorts when test fails
+7. Added to get Screen shorts when a test fails
+
 src/test/java/testCases/BaseClass.java
+
 Log  files folder path - logs
 
                                        2. Click the "Clear" button.
