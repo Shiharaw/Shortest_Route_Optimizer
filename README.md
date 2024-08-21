@@ -15,7 +15,7 @@ Test Steps -
 Expected Result - 
 1. The checkbox should be checked Indicating random mode is enabled.
 2. Refresh icon displayed
-3. Calculate Random button displaye
+3. Calculate the Random button displayed
 
 **********************************************
 
@@ -29,7 +29,7 @@ Test Steps -
 
 Expected Result - 
 1. The checkbox should be unchecked, indicating random mode is disabled.
-2. Calculate Random button did not displayed
+2. The Calculate Random button was not displayed
 
 **********************************************
 
@@ -130,7 +130,9 @@ Expected Result -
 
  **********************************************
 
- 
+Details
+
+**********************************************
 Used Hybrid Selenium framework using Selenium, Maven, and TestGN-based framework.
 
 Created a project in GitHub and provided the link
@@ -140,10 +142,13 @@ Project run in Chrome browser with Headed and headless options
 
 Instructions on how to run the project
 
+**********************************************
+
 a) Go to the project and open master.xml and Run as TestNG suit
 
-Things included in the project
+Project included
 
+**********************************************
 1. Page objects and methods 
 src/test/java/pageObjects/AlgorithmCalculatorPage.java
 
@@ -158,14 +163,15 @@ src/test/java/testCases
 
 5. Extent Report - Report generation and Email report options
 src/test/java/utilities/ExtentReportManager.java
-Reports  - reports
+Reports folder path - reports
 
 6. Log4J
 src/test/resources/log4j2.xml
-Log  files - logs
+Log  files folder path - logs
 
 7. Added to get Screen shorts when test fails
 src/test/java/testCases/BaseClass.java
+Log  files folder path - logs
 
                                        2. Click the "Clear" button.
 
